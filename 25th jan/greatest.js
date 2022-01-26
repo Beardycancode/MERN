@@ -3,13 +3,13 @@ var b= prompt("enter second number");
 var c= prompt("enter third number");
 if(a>=b && a>=c)
 {
-console.log("first number is greatest");
+alert(a);
 }
 else if(b>=a && b>=c)
 {
-console.log("second number is greatest");
+alert(b);
 }
 else
 {
-console.log("third number is greatest");
+alert(c);
 }
