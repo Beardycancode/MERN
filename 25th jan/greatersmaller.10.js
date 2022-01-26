@@ -1,13 +1,15 @@
-var a = prompt("enter your number");
-if(a>10)
+var a= prompt("enter first number");
+var b= prompt("enter second number");
+var c= prompt("enter third number");
+if(a>=b && a>=c)
 {
-console.log("a is greater than 10");
+alert(a);
 }
-else if(a==10)
+else if(b>=a && b>=c)
 {
-console.log("a is equal to 10");
+alert(b);
 }
 else
 {
-console.log("a is smaller than 10");
+alert(c);
 }
