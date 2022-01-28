@@ -1,15 +1,16 @@
 var a= prompt("enter first number");
 var b= prompt("enter second number");
 var c= prompt("enter third number");
+
 if(a<b && a<c)
 {
-alert(a);
+    alert(a);
 }
-else if(b<a && b<c)
+  else if(b<a && b<c)
 {
-alert(b);
+      alert(b);
 }
-else
+    else
 {
-alert(c);
+        alert(c);
 }
