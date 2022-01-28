@@ -1,5 +1,7 @@
-var a=prompt("Enter total values ");
+var a=prompt("Enter total values");
+a=parseInt(a);
 var arr=[];
+
 var i=0;
 
 for(i=0; i<a; i++){
