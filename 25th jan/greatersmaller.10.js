@@ -1,4 +1,5 @@
 var a = prompt("enter your number");
+
 if(a>10)
 {
     console.log("a is greater than 10");
