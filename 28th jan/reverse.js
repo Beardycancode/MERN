@@ -1,5 +1,5 @@
 var n=prompt("Enter last value");
-n=parseInt(a);
+n=parseInt(n);
 
 var i=0;
 
