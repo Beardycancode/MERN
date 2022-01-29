@@ -1,6 +1,9 @@
 var n=prompt("Enter last value");
 n=parseInt(a);
+
 var i=0;
-for(i=n; i>0; i--){
+
+for(i=n; i>0; i--)
+{
     console.log(i);
 }
