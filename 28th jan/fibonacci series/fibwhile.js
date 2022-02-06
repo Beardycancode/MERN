@@ -7,8 +7,9 @@ console.log(n2);
  n3= n1+n2;
 
 while(n3<=f)
-{console.log(n3);
-n1=n2;
-n2=n3;
-n3=n1+n2;
+{
+ document.write(n3);
+ n1=n2;
+ n2=n3;
+ n3=n1+n2;
 }
