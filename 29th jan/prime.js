@@ -11,3 +11,4 @@ n=parseInt(n);
   else
   alert("it is composite");
   
+   }
