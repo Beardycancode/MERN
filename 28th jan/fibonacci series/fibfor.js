@@ -6,8 +6,10 @@ f=parseInt(f);
 if(isNaN(n))
 {
  alert("enter valid number")
+ 
 }
-  document.write("fibonacci series:");
+else 
+document.write("fibonacci series:");
 
 for(i=1;i<=f;i++)
 {
