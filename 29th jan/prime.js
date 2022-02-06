@@ -1,14 +1,29 @@
-var n = prompt("enter your number");
-n=parseInt(n);
-   { 
-    for(i=2;i<=n-1;i++)
-    if(n%i==0){
-    flag=false;
-    break;
-  }
-  if(flag==true)
-  alert("it is prime");
-  else
-  alert("it is composite");
-  
-   }
+
+num = parseInt(prompt("Enter your number: "));
+let flag = true;
+
+if (num === 1) 
+{
+    document.write("entry is 1");
+}
+
+else if (num > 1) 
+{
+
+     for (let i = 2; i < num; i++) {
+        if (num % i == 0) {
+         flag = false;
+            break;
+        }
+    }
+
+    if (flag) {
+        document.write(`${num} is a prime number`);
+    } else {
+        document.write(`${num} is a not prime number`);
+    }
+}
+
+else {
+    console.log("The number is not a prime number.");
+}
