@@ -16,19 +16,19 @@
         <br>
 
         <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="name" size="40" placeholder="Enter your first name"  pattern="[A-z]{1,30}" required/>&nbsp;&nbsp;
-        <input type="name" size="40" placeholder="Enter  middle name" name="fname" pattern="[A-z]{1,30}" required/>&nbsp;&nbsp;
-        <input type="name" size="40" placeholder="Enter  last name" name="fname"  pattern="[A-z]{1,30}" required/>&nbsp;&nbsp;
+        <input type="name" size="40" placeholder="Enter your first name"  pattern="[a-zA-Z]+" required/>&nbsp;&nbsp;
+        <input type="name" size="40" placeholder="Enter  middle name" name="fname" pattern="[a-zA-Z]+" required/>&nbsp;&nbsp;
+        <input type="name" size="40" placeholder="Enter  last name" name="fname"  pattern="[a-zA-Z]+" required/>&nbsp;&nbsp;
         <br>
         <br>
         <br>
         <label>Contact</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="number" size="40" placeholder="Enter your number">
+        <input type="tel" size="20" placeholder="Enter your number" minlength="10" maxlength="10" pattern="[0-9]{10}" />
         <br>
         <br>
         <br>
         <label>Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="number" size="40" placeholder="Enter your age"  pattern="[1-9]{1,2}"/>
+        <input type="tel" size="20" placeholder="Enter your age" minlength="2" maxlength="2" pattern="[0-9][0-9]"/>
         <br>
         <br>
         <br>
@@ -52,9 +52,38 @@
         <label>Adress</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="adress" placeholder="Enter City" pattern="[A-z]{1,30}"/>&nbsp;&nbsp;
         <input type="adress" placeholder="Enter district" pattern="[A-z]{1,30}"/>&nbsp;&nbsp;
-        <input type="number" size="40" placeholder="Enter Pincode" maxlength="6" pattern="[1-9]{1,6}"/>&nbsp;&nbsp;
+        <input type="tel" size="20" placeholder="Enter Pincode" minlength="6" maxlength="6" pattern="[0-9]{6}"/>&nbsp;&nbsp;
         <br>
         <br>
+        <br>
+        <label>Enter birth date</label>&nbsp;&nbsp;
+        <input type="date"/>
+        <br>
+        <br>
+        <br>
+        <label>Percentage</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="age" size="20" placeholder="Enter 10th Percentage" maxlength="2"/>&nbsp;&nbsp;
+        <input type="age" size="20" placeholder="Enter 12th Percentage" maxlength="2"/>&nbsp;&nbsp;
+        <br>
+        <br>
+        <br>
+        <input type="reset"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="submit" name="tnc"/>
+        <br>
+        <br>
+        <br>
+        <input type="image" src="https://www.highereducationdigest.com/wp-content/uploads/2021/12/Geekster-550x330.jpg"
+            height="80px"
+            width="110px" alt="submit"
+            text />
+
+
+    </form>
+
+</body>
+</html>
+</body>
+</html>
         <br>
         <label>Enter birth date</label>&nbsp;&nbsp;
         <input type="date"/>
