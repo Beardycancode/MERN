@@ -1,6 +1,7 @@
 
 
 
+
 :root{
     --link:#000;
     --hover:#b00;
@@ -13,7 +14,7 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     font-family: tahoma;
     color: black;
 }
@@ -109,4 +110,5 @@ nav a:hover{
     background-color: black;
     color: wheat;
 }
+
 
