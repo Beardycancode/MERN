@@ -2,4 +2,4 @@
 
 
 
-2) hosted link - https://beardycancode.github.io/MERN/10th%20feb/SAYAJI.html
+2) hosted link - https://beardycancode.github.io/MERN/10th%20feb/hotelsayaji.html
