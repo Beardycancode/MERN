@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#yt{
+    margin-left: 20%;
+    cursor: pointer;
+}
+#ham{
+    height: 30px;
+    margin-left: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    padding: 20px;
+    margin: 0;
+    border: none;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:1px solid #ddd;
+    height: 35px;
+    width: 600px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#glass{
+    background-color: rgba(63, 62, 62, 0.966);
+    width: 30px;
+    padding: 10px 20px 10px 20px;
+    height: 24px;
+    cursor: pointer;
+}
+#mic{
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 7px;
+    padding: 1%;
+    cursor: pointer;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#cam,#grid,#bell{
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    cursor: pointer;
+}
+#profile{
+    height: 20px;
+    padding: 20px;
+    background-color: green;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    
+}
+.side{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    list-style: none;
+    color: white;
+    width: 140px;
+    text-align: left;
+}
+.sidebar img{
+    height: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-left: -1%;
+}
+#first{
+    width: 265px;
+    margin-top: 20px;
+    margin-left: -33.5%;
+}
+li{
+    cursor: pointer;
+    padding: 2px;
+}
+li:hover{
+    background-color: rgb(75, 71, 71);
+}
+.sidebar img:hover{
+    background-color: rgb(75, 71, 71);
+}
+.centre{
+    display: flex;
+    flex-direction: row;     
+}
+
+button{
+    margin-top: 0%;
+    border-radius: 20px;
+    padding: 12px 27px 12px 27px;
+    margin-left: 1%;
+    cursor: pointer;
+    background-color: gray;
+    border: currentColor;
+    color: white;
+}
+button:hover{
+    background-color: rgb(109, 105, 105);
+}
+#second{
+    width: 1420px;   
+}
+#all{
+    background-color: white;
+    color: black;
+}
+.btn img{
+    height: 20px;
+    margin-left: 2%;
+    cursor: pointer;
+}
