@@ -234,10 +234,10 @@ hr{
     border: solid 1px white;
     outline: none;
 }
-.content9 button{
+..content9 button{
     cursor: pointer;
-    width: 90px;
-    padding: 2px 12px 5px 2px;
+    width: 80px;
+    padding: 2px 3px 5px 2px;
     margin-left: 3px;
     border-radius: 13px;
     background-color: rgb(222, 247, 247);
